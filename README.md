@@ -18,19 +18,9 @@ I'm pretty sorry for all the typos and grammar errors, feel free to correct them
 - CSS
 - Phonegap
 
-## Day 1 - Croping the center of an image with canvas
-### Problem
-In the last week I worked in a task that was the upload of people *profile pictures* to our app at work. It happens that we wanted to crop the picture before it goes to the server (mainly because of our mobile app). I searched for some minutes and found a lib that does a lot of things related with cropping and resizing images using canvas its name was [Cropper](https://github.com/fengyuanchen/cropper).
-I wanted something simpler, as I wouldn't import a library that big for the simple work I needed so I've made a small set of functions, here's what I wanted to do:
-- Load and image from user PC
-- Preview that image to aknowledge the user how it was gonna look
-- Crop the image center and resize to a desired resolution
-- Send it to the server as multipart
+[Day 1 - Croping the center of an image with canvas](days/1.md)
 
-TODO: Finish it and include a file for each "day"
-
-
-## Day 2 - input type=file sugesting opening vídeo camera in Android 
+[Day 2 - input type=file sugesting opening vídeo camera in Android](days/2.md)
 ### Problem (accept and capture tags)
 We have implemented the file upload at my job, and we're a Phonegap App so we have to implement the file upload through the input tag. 
 I found that Android and iOS phones have a "upload files dialog" which automatically sugests to open the file browser or the camera. The camera one is a very cool feature as it automatically takes the pic and attaches it to our input type file.
@@ -43,7 +33,7 @@ It also mentions the **capture** attribute which should automatically open the c
 <input type="file" name="image" accept="image/*" capture>
 ```
 
-## Day 3 - Javascript code documentation 
+[Day 3 - Javascript code documentation](days/3.md)
 ### Sugestion (JSDOC and SpeakingJS)
 At my job we have some Javascript code (a phonegap App and Desktop one) and the two are **Backbone based**, using the [Backbone Generator](https://github.com/yeoman/generator-backbone) from [Yeoman](https://github.com/yeoman) with **RequireJS** and **SASS**. 
 As you can expect, the code is not as documented as I expected and at the moment that is not a problem. The problem is when you have to introduce a new developer to the code.
