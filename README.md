@@ -14,3 +14,7 @@ Major topics:
 ## Day 2 - input type=file sugesting opening vídeo camera in Android 
 - explain later
 https://www.w3.org/TR/html-media-capture/#the-capture-attribute
+
+## Day 3 - JSDoc 
+- explain later
+http://speakingjs.com/es5/ch29.html
