@@ -19,9 +19,7 @@ I'm pretty sorry for all the typos and grammar errors, feel free to correct them
 - Phonegap
 
 [Day 1 - Croping the center of an image with canvas](days/1.md)
-
 [Day 2 - input type=file sugesting opening vídeo camera in Android](days/2.md)
-
 [Day 3 - Javascript code documentation](days/3.md)
 
 
